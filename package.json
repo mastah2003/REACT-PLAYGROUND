@@ -1,0 +1,21 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mastah2003"
+  },
+  "keywords": [
+    "abc"
+  ],
+  "author": "Filip Grygo",
+  "license": "ISC",
+  "dependencies": {
+    "react-app": "^1.1.2"
+  }
+}

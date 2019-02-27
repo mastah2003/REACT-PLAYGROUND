@@ -1,0 +1,37 @@
+
+body {
+  background-color: skyblue;
+}
+
+.greyback{
+        background-color:rgb(242, 241, 241);
+}
+.wrapper {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: auto 60% auto;
+        grid-template-rows:  5% auto 5%;
+        background-color: black;
+        color: #444;
+        /* height: 100%; */
+    }
+
+    .box {
+        color: rgb(0, 0, 0);
+        padding: 1em;
+    }
+
+    .navi {
+         grid-column: 1 / span 3 ;
+         grid-row: 1;  
+    }
+    .content {
+    }
+    .leftBar {
+    }
+    .rightBar {
+  }
+    .footer {
+      grid-column: 1 / span 3 ;
+      grid-row: 3 ;
+  }
